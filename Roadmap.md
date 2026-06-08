@@ -34,10 +34,10 @@ Study Time: **3–4 Hours/Day** | Duration: **~5 Months**
 
 | Category         | Topics                                                                                         |
 | ---------------- | ---------------------------------------------------------------------------------------------- |
-| Python Advanced  | AsyncIO, Generators, Decorators, Context Managers, Type Hints, Pydantic, Error Handling        |
-| FastAPI Advanced | Dependency Injection, Middleware, Streaming, Background Tasks, WebSockets, Auth, Rate Limiting |
-| Databases        | PostgreSQL Indexing, Query Optimization, Transactions, Pooling                                 |
-| Infrastructure   | Docker, Redis, Logging, API Design                                                             |
+| Python Advanced  | AsyncIO, Concurrency Models, Generators, Decorators, Context Managers, Type Hints, Error Handling |
+| FastAPI Advanced | Pydantic V2, Dependency Injection, Middleware, Streaming, Background Tasks, WebSockets, Auth, Rate Limiting |
+| Databases        | PostgreSQL Indexing, Performance Tuning, Query Optimization, Transactions, Pooling, Advanced Patterns |
+| Infrastructure   | Docker, Redis Caching, Redis Advanced Patterns, Logging, API Design, API Scaling                |
 
 ### Projects
 
@@ -119,12 +119,12 @@ Study Time: **3–4 Hours/Day** | Duration: **~5 Months**
 
 # Phase 3 — Embeddings + Vector Databases
 
-| Category   | Topics                                           |
-| ---------- | ------------------------------------------------ |
-| Embeddings | Dense Vectors, Sparse Vectors, Similarity Search |
-| Retrieval  | Dense, Sparse, Hybrid Retrieval                  |
-| Chunking   | Fixed, Recursive, Semantic, Parent-Child         |
-| Vector DBs | ChromaDB, Pinecone, FAISS, Weaviate, Qdrant      |
+| Category   | Topics                                                                                           |
+| ---------- | ------------------------------------------------------------------------------------------------ |
+| Embeddings | Dense Vectors, Sparse Vectors, Embedding Types, Similarity Search, Cosine Similarity            |
+| Retrieval  | Dense Retrieval, Sparse Retrieval, Hybrid Retrieval, Retrieval Strategies                       |
+| Chunking   | Fixed, Recursive, Semantic, Parent-Child                                                        |
+| Vector DBs | ChromaDB, Pinecone, FAISS, Weaviate, Qdrant                                                     |
 
 ### Projects
 
@@ -147,13 +147,13 @@ Study Time: **3–4 Hours/Day** | Duration: **~5 Months**
 
 # Phase 4 — Production RAG Engineering
 
-| Category           | Topics                                              |
-| ------------------ | --------------------------------------------------- |
-| RAG Pipeline       | Chunking → Embeddings → Retrieval → Reranking → LLM |
-| Advanced Retrieval | Metadata Filtering, Hybrid Search                   |
-| Optimization       | Context Compression, Reranking                      |
-| Advanced Concepts  | Graph RAG, Agentic RAG                              |
-| Frameworks         | LangChain, LlamaIndex, LangGraph                    |
+| Category           | Topics                                                                                        |
+| ------------------ | --------------------------------------------------------------------------------------------- |
+| RAG Pipeline       | Chunking Strategies, Embeddings, Retrieval Strategies, Reranking, Context Compression, LLM   |
+| Advanced Retrieval | Metadata Filtering, Hybrid Search, Advanced Retrieval, Vector Database Integration           |
+| Optimization       | Reranking, Context Compression, Query Optimization                                           |
+| Advanced Concepts  | Graph RAG, Agentic RAG                                                                        |
+| Frameworks         | LangChain, LlamaIndex, LangGraph, RAG Frameworks                                              |
 
 ### Projects
 
@@ -204,10 +204,11 @@ Study Time: **3–4 Hours/Day** | Duration: **~5 Months**
 
 # Phase 6 — AI Application Development
 
-| Category | Topics                                  |
-| -------- | --------------------------------------- |
-| Backend  | Streaming, Redis, Queues, WebSockets    |
-| Frontend | Chat UI, Citations, Multi-Session Chats |
+| Category   | Topics                                                           |
+| ---------- | ---------------------------------------------------------------- |
+| Backend    | Streaming, Redis, Queues, WebSockets, AI Backend Patterns        |
+| Frontend   | Chat UI, Citations, Multi-Session Chats, AI Frontend and Product UX |
+| System Design | Backend and AI Scenarios, Architecture Patterns                |
 
 ### Projects
 
@@ -255,13 +256,13 @@ Study Time: **3–4 Hours/Day** | Duration: **~5 Months**
 
 # Phase 8 — Production Deployment
 
-| Category     | Topics                            |
-| ------------ | --------------------------------- |
-| Deployment   | Docker, Kubernetes                |
-| DevOps       | CI/CD                             |
-| Monitoring   | Observability, Logging            |
-| Cloud        | AWS Bedrock, ECS, Lambda, S3      |
-| Optimization | GPU Deployment, Cost Optimization |
+| Category     | Topics                                                                              |
+| ------------ | ----------------------------------------------------------------------------------- |
+| Deployment   | Docker, Kubernetes, Docker and Kubernetes                                          |
+| DevOps       | CI/CD, CI/CD for AI Systems                                                        |
+| Monitoring   | Observability, Logging, Observability and Monitoring                               |
+| Cloud        | AWS Bedrock, ECS, Lambda, S3, Cloud AI Architecture                                |
+| Optimization | GPU Deployment, Cost Optimization, GPU Deployment and Cost Optimization            |
 
 ### Project
 
