@@ -162,3 +162,750 @@ Build an AI streaming chat API that handles concurrent users without blocking wo
 You should be able to explain async vs sync, identify blocking calls, and design a simple async FastAPI endpoint.
 
 Are you ready for the next section?
+
+---
+# AsyncIO — Beginner to Advanced (Interview Ready)
+
+If Decorators and Generators are important, **AsyncIO is critical** for FastAPI interviews.
+
+Most FastAPI interview questions eventually lead to:
+
+> Why do we write `async def` in FastAPI?
+
+To answer that properly, you need AsyncIO.
+
+---
+
+# 1. What Problem Does AsyncIO Solve?
+
+Imagine a restaurant.
+
+### Traditional (Synchronous)
+
+```text
+Waiter takes Order 1
+Waits for kitchen
+Delivers food
+
+Then takes Order 2
+Waits for kitchen
+Delivers food
+```
+
+One task at a time.
+
+---
+
+### AsyncIO
+
+```text
+Take Order 1
+Kitchen cooking
+
+Take Order 2
+Kitchen cooking
+
+Take Order 3
+Kitchen cooking
+
+Serve whichever finishes first
+```
+
+Multiple waiting tasks progress together.
+
+---
+
+# 2. Synchronous Programming
+
+Example:
+
+```python
+import time
+
+def task1():
+    print("Task1 Started")
+    time.sleep(3)
+    print("Task1 Finished")
+
+def task2():
+    print("Task2 Started")
+    time.sleep(3)
+    print("Task2 Finished")
+
+task1()
+task2()
+```
+
+Execution:
+
+```text
+Task1 Started
+(wait 3 sec)
+Task1 Finished
+
+Task2 Started
+(wait 3 sec)
+Task2 Finished
+```
+
+Total:
+
+```text
+6 seconds
+```
+
+---
+
+# 3. Async Programming
+
+```python
+import asyncio
+
+async def task1():
+    print("Task1 Started")
+    await asyncio.sleep(3)
+    print("Task1 Finished")
+
+async def task2():
+    print("Task2 Started")
+    await asyncio.sleep(3)
+    print("Task2 Finished")
+```
+
+Run together:
+
+```python
+async def main():
+    await asyncio.gather(
+        task1(),
+        task2()
+    )
+
+asyncio.run(main())
+```
+
+Output:
+
+```text
+Task1 Started
+Task2 Started
+
+(wait 3 sec)
+
+Task1 Finished
+Task2 Finished
+```
+
+Total:
+
+```text
+3 seconds
+```
+
+---
+
+# 4. Key AsyncIO Concepts
+
+| Concept    | Meaning                 |
+| ---------- | ----------------------- |
+| async      | Defines coroutine       |
+| await      | Pause current task      |
+| coroutine  | Async function          |
+| event loop | Manages async tasks     |
+| task       | Scheduled coroutine     |
+| gather()   | Run multiple coroutines |
+
+---
+
+# 5. What is a Coroutine?
+
+Normal function:
+
+```python
+def greet():
+    return "Hello"
+```
+
+Async function:
+
+```python
+async def greet():
+    return "Hello"
+```
+
+This is called a **Coroutine**.
+
+---
+
+Calling it:
+
+```python
+greet()
+```
+
+Output:
+
+```text
+<coroutine object>
+```
+
+Nothing executes yet.
+
+---
+
+Need:
+
+```python
+await greet()
+```
+
+or
+
+```python
+asyncio.run(greet())
+```
+
+---
+
+# 6. Understanding await
+
+Example:
+
+```python
+async def fetch():
+    await asyncio.sleep(2)
+```
+
+Meaning:
+
+```text
+I'm waiting.
+Someone else can use CPU.
+```
+
+Not:
+
+```text
+Block entire program.
+```
+
+---
+
+# 7. Event Loop
+
+The Event Loop is the heart of AsyncIO.
+
+Think of it as a manager.
+
+```text
+Task A waiting
+Task B ready
+
+Run Task B
+
+Task B waiting
+Task A ready
+
+Run Task A
+```
+
+---
+
+Visual:
+
+```text
+Event Loop
+     │
+ ┌───┼───┐
+ │   │   │
+Task1 Task2 Task3
+```
+
+---
+
+# 8. asyncio.run()
+
+Entry point.
+
+```python
+asyncio.run(main())
+```
+
+Creates:
+
+* Event Loop
+* Runs coroutine
+* Closes loop
+
+---
+
+# 9. Multiple Tasks Using gather()
+
+Example:
+
+```python
+import asyncio
+
+async def fetch_user():
+    await asyncio.sleep(2)
+    return "User"
+
+async def fetch_orders():
+    await asyncio.sleep(2)
+    return "Orders"
+```
+
+Sequential:
+
+```python
+user = await fetch_user()
+orders = await fetch_orders()
+```
+
+Time:
+
+```text
+4 sec
+```
+
+---
+
+Concurrent:
+
+```python
+user, orders = await asyncio.gather(
+    fetch_user(),
+    fetch_orders()
+)
+```
+
+Time:
+
+```text
+2 sec
+```
+
+---
+
+# 10. create_task()
+
+Schedules task in background.
+
+```python
+task = asyncio.create_task(fetch_user())
+```
+
+Task starts immediately.
+
+Later:
+
+```python
+result = await task
+```
+
+---
+
+Example:
+
+```python
+async def main():
+
+    task = asyncio.create_task(fetch_user())
+
+    print("Doing other work")
+
+    user = await task
+```
+
+---
+
+# 11. Real FastAPI Example
+
+Bad:
+
+```python
+@app.get("/users")
+def get_users():
+
+    users = db.fetch_all()
+
+    return users
+```
+
+Blocks worker.
+
+---
+
+Good:
+
+```python
+@app.get("/users")
+async def get_users():
+
+    users = await db.fetch_all()
+
+    return users
+```
+
+Worker can serve other requests while waiting.
+
+---
+
+# 12. Why FastAPI Uses AsyncIO
+
+Typical API:
+
+```text
+Receive Request
+      ↓
+Database Call
+      ↓
+External API Call
+      ↓
+Return Response
+```
+
+Most time spent waiting.
+
+AsyncIO handles waiting efficiently.
+
+---
+
+# 13. Async HTTP Requests
+
+Very common.
+
+Using [HTTPX Official Docs](https://www.python-httpx.org/?utm_source=chatgpt.com)
+
+```python
+import httpx
+
+async def get_users():
+
+    async with httpx.AsyncClient() as client:
+
+        response = await client.get(
+            "https://example.com/users"
+        )
+
+        return response.json()
+```
+
+---
+
+# 14. Async Database Example
+
+```python
+async def get_user():
+
+    result = await db.fetch_one(
+        "SELECT * FROM users"
+    )
+
+    return result
+```
+
+Database is waiting.
+
+Event loop serves others meanwhile.
+
+---
+
+# 15. Async Context Manager
+
+Normal:
+
+```python
+with open("file.txt") as f:
+    pass
+```
+
+Async:
+
+```python
+async with client:
+    pass
+```
+
+Example:
+
+```python
+async with httpx.AsyncClient() as client:
+    ...
+```
+
+---
+
+# 16. Async Iterator
+
+Normal:
+
+```python
+for item in items:
+    pass
+```
+
+Async:
+
+```python
+async for item in stream:
+    pass
+```
+
+Useful:
+
+* Streaming APIs
+* WebSockets
+* Large data streams
+
+---
+
+# 17. CPU Bound vs IO Bound
+
+This is a favorite interview question.
+
+---
+
+## IO Bound
+
+Waiting for:
+
+* Database
+* APIs
+* Network
+* Files
+
+Example:
+
+```python
+await db.fetch()
+```
+
+Use AsyncIO.
+
+---
+
+## CPU Bound
+
+Heavy computation:
+
+```python
+for i in range(100000000):
+    ...
+```
+
+Examples:
+
+* Image processing
+* ML training
+* Video rendering
+
+Do NOT use AsyncIO.
+
+Use:
+
+* Multiprocessing
+* Celery
+* Ray
+
+---
+
+# 18. Common Mistakes
+
+## Mistake 1
+
+```python
+time.sleep(5)
+```
+
+Inside async function.
+
+Bad.
+
+Blocks event loop.
+
+---
+
+Use:
+
+```python
+await asyncio.sleep(5)
+```
+
+---
+
+## Mistake 2
+
+```python
+requests.get(url)
+```
+
+Inside async function.
+
+Bad.
+
+Blocking.
+
+---
+
+Use:
+
+```python
+await client.get(url)
+```
+
+with async HTTP client.
+
+---
+
+# 19. Sequential vs Concurrent
+
+Sequential:
+
+```python
+a = await fetch_a()
+b = await fetch_b()
+c = await fetch_c()
+```
+
+Time:
+
+```text
+6 sec
+```
+
+---
+
+Concurrent:
+
+```python
+a, b, c = await asyncio.gather(
+    fetch_a(),
+    fetch_b(),
+    fetch_c()
+)
+```
+
+Time:
+
+```text
+2 sec
+```
+
+---
+
+# 20. How FastAPI Handles Requests
+
+```text
+Request 1
+   ↓
+Waiting DB
+   ↓
+
+Request 2 arrives
+   ↓
+Handled immediately
+
+Request 3 arrives
+   ↓
+Handled immediately
+```
+
+Because worker isn't blocked.
+
+---
+
+# AsyncIO Interview Questions
+
+## Q1. What is AsyncIO?
+
+**Answer**
+
+AsyncIO is Python's framework for writing concurrent programs using coroutines, an event loop, and non-blocking I/O operations.
+
+---
+
+## Q2. Difference Between async and await?
+
+**Answer**
+
+* `async` defines a coroutine.
+* `await` pauses execution until an awaitable completes.
+
+---
+
+## Q3. What is a Coroutine?
+
+**Answer**
+
+A coroutine is an asynchronous function defined using `async def`.
+
+---
+
+## Q4. What is an Event Loop?
+
+**Answer**
+
+The event loop manages and schedules asynchronous tasks, switching between them whenever a task is waiting.
+
+---
+
+## Q5. Difference Between Concurrency and Parallelism?
+
+```text
+Concurrency
+Multiple tasks progressing
+
+Parallelism
+Multiple tasks executing simultaneously
+```
+
+AsyncIO provides concurrency, not true parallel CPU execution.
+
+---
+
+## Q6. When Should You Use AsyncIO?
+
+Use AsyncIO for:
+
+* APIs
+* Database calls
+* External services
+* Web scraping
+* Streaming
+
+Avoid it for CPU-intensive computations.
+
+---
+
+# Interview Answer (2-Minute Version)
+
+> AsyncIO is Python's asynchronous programming framework that enables concurrent execution of I/O-bound tasks using coroutines and an event loop. Functions are defined with `async def` and paused using `await`, allowing other tasks to run while waiting for operations like database queries or API calls. This improves scalability and resource utilization. FastAPI uses AsyncIO extensively to handle many concurrent requests efficiently without blocking worker threads.
+
+---
+
+# What You Must Know for FastAPI Interviews
+
+### Beginner
+
+* `async`
+* `await`
+* Coroutine
+* Event Loop
+
+### Intermediate
+
+* `asyncio.run()`
+* `gather()`
+* `create_task()`
+* Async Context Managers
+
+### Advanced
+
+* Async DB access
+* Async HTTP clients
+* FastAPI internals
+* IO-bound vs CPU-bound
+* Event loop behavior
+
+After AsyncIO, the next most valuable topic for your FastAPI + GenAI path is **Type Hints + mypy**, because FastAPI, Pydantic, LangChain, and modern Python codebases rely heavily on type annotations.
