@@ -20,6 +20,7 @@ Move from Python backend developer to production-ready GenAI engineer in an orde
 | 9 | LLM engineering | Fine-tuning, quantization, and local serving trade off cost, control, and latency | Model customization and serving skills |
 | 10 | System design | Interviews test tradeoffs across the whole system | Design-ready AI backend thinking |
 | 11 | Projects and career | Hiring needs proof of skill, not only notes | Portfolio, interview practice, and job plan |
+| 12 | DevOps and DevSecOps | Production backend roles expect secure delivery, cloud deployment, observability, and operations | Source-code-to-production platform skills |
 
 ## Recommended Study Order
 
@@ -37,6 +38,7 @@ Move from Python backend developer to production-ready GenAI engineer in an orde
 12. [12-Projects](../12-Projects/README.md)
 13. [13-Interview-Preparation](../13-Interview-Preparation/README.md)
 14. [14-Career](../14-Career/README.md)
+15. [15-DevOps-DevSecOps](../15-DevOps-DevSecOps/README.md)
 
 ## Fastest Job-Ready Track
 
@@ -51,6 +53,7 @@ If speed matters more than completeness, prioritize these topics:
 | 5 | Chunking, retrieval, vector databases, RAG pipeline | Knowledge assistant with citations |
 | 6 | Tool calling, state, memory, orchestration | Multi-step agent workflow |
 | 7 | Observability, cloud architecture, CI/CD, cost controls | Production AI platform design |
+| 8 | Docker, GitHub Actions, AWS, ECS/EKS, ArgoCD, DevSecOps | Secure deployment portfolio project |
 
 ## Weekly Routine
 
@@ -73,6 +76,7 @@ If speed matters more than completeness, prioritize these topics:
 | RAG-ready | You can build ingestion, retrieval, reranking, and citation flows |
 | Agent-ready | You can justify when agents are useful and control tools, loops, state, and memory |
 | Production-ready | You can discuss logging, monitoring, scaling, security, failure modes, and cost |
+| Deployment-ready | You can containerize, build CI/CD, deploy to cloud, secure artifacts, observe production, and handle rollback |
 
 ## Related Files
 
@@ -80,3 +84,4 @@ If speed matters more than completeness, prioritize these topics:
 - [Bootcamp-Schedule.md](Bootcamp-Schedule.md)
 - [Progress-Tracker.md](Progress-Tracker.md)
 - [career-roadmap-and-study-plan.md](../14-Career/career-roadmap-and-study-plan.md)
+- [15-DevOps-DevSecOps](../15-DevOps-DevSecOps/README.md)

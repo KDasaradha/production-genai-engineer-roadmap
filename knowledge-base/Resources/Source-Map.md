@@ -33,6 +33,7 @@ This file records how the new `knowledge-base/` was assembled without modifying 
 | `juppyter-notes/notebooks/phase1-md/*.md` | Backend day-by-day notes already incorporated into curated phase-00 files |
 | `juppyter-notes/notebooks/Python Backend Master Notes.md` | Python concurrency quick-reference topics |
 | `raw-notes/chat-005.md`, `raw-notes/roadmap.md`, `Roadmap.md` | Career and roadmap framing |
+| `devops-notes.md` | DevOps, DevSecOps, deployment options, CI/CD, GitOps, supply chain security, Kubernetes, observability, platform engineering, compliance, and portfolio project notes |
 
 ## Added Consolidation Files
 
@@ -77,6 +78,17 @@ The following files were created to capture cross-source material that did not e
 - [career-roadmap-and-study-plan.md](../14-Career/career-roadmap-and-study-plan.md)
 - [job-first-track.md](../14-Career/job-first-track.md)
 - [Note-Templates-and-Prompts.md](Note-Templates-and-Prompts.md)
+- [15-DevOps-DevSecOps/README.md](../15-DevOps-DevSecOps/README.md)
+- [15-DevOps-DevSecOps/01-platform-engineer-roadmap.md](../15-DevOps-DevSecOps/01-platform-engineer-roadmap.md)
+- [15-DevOps-DevSecOps/02-deployment-fundamentals.md](../15-DevOps-DevSecOps/02-deployment-fundamentals.md)
+- [15-DevOps-DevSecOps/03-cloud-registries-and-tooling.md](../15-DevOps-DevSecOps/03-cloud-registries-and-tooling.md)
+- [15-DevOps-DevSecOps/04-cicd-github-actions.md](../15-DevOps-DevSecOps/04-cicd-github-actions.md)
+- [15-DevOps-DevSecOps/05-devsecops-supply-chain-security.md](../15-DevOps-DevSecOps/05-devsecops-supply-chain-security.md)
+- [15-DevOps-DevSecOps/06-kubernetes-helm-gitops.md](../15-DevOps-DevSecOps/06-kubernetes-helm-gitops.md)
+- [15-DevOps-DevSecOps/07-production-platform-engineering.md](../15-DevOps-DevSecOps/07-production-platform-engineering.md)
+- [15-DevOps-DevSecOps/08-observability-sre-compliance.md](../15-DevOps-DevSecOps/08-observability-sre-compliance.md)
+- [15-DevOps-DevSecOps/09-deployment-strategies.md](../15-DevOps-DevSecOps/09-deployment-strategies.md)
+- [15-DevOps-DevSecOps/10-portfolio-projects-and-checklists.md](../15-DevOps-DevSecOps/10-portfolio-projects-and-checklists.md)
 
 ## Related Topics
 

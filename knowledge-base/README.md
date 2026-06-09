@@ -29,6 +29,7 @@ Start here if you want the fastest path:
 | 12 | [12-Projects](12-Projects/README.md) | Portfolio projects from easy to production | Proof of work |
 | 13 | [13-Interview-Preparation](13-Interview-Preparation/README.md) | Question banks and scenario practice | Interview readiness |
 | 14 | [14-Career](14-Career/README.md) | Job-first plan, resume direction, career roadmap | Hiring strategy |
+| 15 | [15-DevOps-DevSecOps](15-DevOps-DevSecOps/README.md) | Docker, CI/CD, AWS, Kubernetes, GitOps, security, observability | Production deployment readiness |
 
 ## How To Study Each Topic
 

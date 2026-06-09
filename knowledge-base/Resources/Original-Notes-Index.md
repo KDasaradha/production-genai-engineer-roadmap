@@ -28,6 +28,7 @@ This file preserves the original learning-path intent from the source notes, but
 | Production deployment | `phase-08-production-deployment/README.md` | [06-Software-Architecture](../06-Software-Architecture/README.md) |
 | Portfolio projects | `portfolio-projects.md` | [portfolio-projects.md](../12-Projects/portfolio-projects.md) |
 | Interview prep | `interview-prep.md` | [interview-prep.md](../13-Interview-Preparation/interview-prep.md) |
+| DevOps and DevSecOps | `devops-notes.md` | [15-DevOps-DevSecOps](../15-DevOps-DevSecOps/README.md) |
 
 ## Study Routine Preserved From Original Notes
 
