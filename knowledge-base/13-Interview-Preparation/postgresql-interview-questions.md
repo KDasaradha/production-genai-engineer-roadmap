@@ -19,5 +19,5 @@ Answer: Multi-Version Concurrency Control lets readers and writers proceed with 
 
 ## Related Topics
 
-- [postgresql-performance.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/03-PostgreSQL/postgresql-performance.md)
-- [postgresql-advanced-patterns.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/03-PostgreSQL/postgresql-advanced-patterns.md)
+- [postgresql-performance.md](../03-PostgreSQL/postgresql-performance.md)
+- [postgresql-advanced-patterns.md](../03-PostgreSQL/postgresql-advanced-patterns.md)

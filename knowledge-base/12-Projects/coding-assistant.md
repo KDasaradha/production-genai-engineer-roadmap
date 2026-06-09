@@ -54,5 +54,5 @@ coding-assistant/
 
 ## Related Topics
 
-- [multi-agent-research-system.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/multi-agent-research-system.md)
-- [tool-calling.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/tool-calling.md)
+- [multi-agent-research-system.md](multi-agent-research-system.md)
+- [tool-calling.md](../10-Agentic-AI/tool-calling.md)

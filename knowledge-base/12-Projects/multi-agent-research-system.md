@@ -50,9 +50,9 @@ multi-agent-research-system/
 
 ## Code References
 
-- [agent-fundamentals.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/agent-fundamentals.md)
-- [tool-calling.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/tool-calling.md)
-- [state-memory-and-orchestration.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/state-memory-and-orchestration.md)
+- [agent-fundamentals.md](../10-Agentic-AI/agent-fundamentals.md)
+- [tool-calling.md](../10-Agentic-AI/tool-calling.md)
+- [state-memory-and-orchestration.md](../10-Agentic-AI/state-memory-and-orchestration.md)
 
 ## Interview Talking Points
 
@@ -70,5 +70,5 @@ multi-agent-research-system/
 
 ## Related Topics
 
-- [backend-and-ai-scenarios.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/backend-and-ai-scenarios.md)
-- [portfolio-projects.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/portfolio-projects.md)
+- [backend-and-ai-scenarios.md](../05-System-Design/backend-and-ai-scenarios.md)
+- [portfolio-projects.md](portfolio-projects.md)

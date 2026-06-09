@@ -56,5 +56,5 @@ saas-level-ai-product/
 
 ## Related Topics
 
-- [ai-frontend-and-product-ux.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/06-Software-Architecture/ai-frontend-and-product-ux.md)
-- [production-ai-platform.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/production-ai-platform.md)
+- [ai-frontend-and-product-ux.md](../06-Software-Architecture/ai-frontend-and-product-ux.md)
+- [production-ai-platform.md](production-ai-platform.md)

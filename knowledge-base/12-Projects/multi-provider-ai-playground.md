@@ -53,5 +53,5 @@ multi-provider-ai-playground/
 
 ## Related Topics
 
-- [advanced-prompting.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/advanced-prompting.md)
-- [prompt-testing-and-versioning.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-testing-and-versioning.md)
+- [advanced-prompting.md](../07-Prompt-Engineering/advanced-prompting.md)
+- [prompt-testing-and-versioning.md](../07-Prompt-Engineering/prompt-testing-and-versioning.md)

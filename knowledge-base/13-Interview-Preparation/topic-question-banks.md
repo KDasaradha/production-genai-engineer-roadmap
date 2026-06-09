@@ -87,5 +87,5 @@ Answer: Cache repeated work, use smaller models where possible, add retrieval be
 
 ## Related Topics
 
-- [interview-prep.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation/interview-prep.md)
-- [backend-and-ai-scenarios.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/backend-and-ai-scenarios.md)
+- [interview-prep.md](interview-prep.md)
+- [backend-and-ai-scenarios.md](../05-System-Design/backend-and-ai-scenarios.md)

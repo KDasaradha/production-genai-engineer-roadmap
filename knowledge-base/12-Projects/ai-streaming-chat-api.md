@@ -57,6 +57,6 @@ ai-streaming-chat-api/
 
 ## Related Topics
 
-- [asyncio.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/01-Python/asyncio.md)
-- [fastapi-advanced.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/02-FastAPI/fastapi-advanced.md)
-- [redis-and-caching.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis/redis-and-caching.md)
+- [asyncio.md](../01-Python/asyncio.md)
+- [fastapi-advanced.md](../02-FastAPI/fastapi-advanced.md)
+- [redis-and-caching.md](../04-Redis/redis-and-caching.md)

@@ -103,6 +103,6 @@ This file consolidates the unique PostgreSQL material from the raw chat notes th
 
 ## Related Topics
 
-- [postgresql-performance.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/03-PostgreSQL/postgresql-performance.md)
-- [fastapi-advanced.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/02-FastAPI/fastapi-advanced.md)
-- [concurrency-models.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/01-Python/concurrency-models.md)
+- [postgresql-performance.md](postgresql-performance.md)
+- [fastapi-advanced.md](../02-FastAPI/fastapi-advanced.md)
+- [concurrency-models.md](../01-Python/concurrency-models.md)

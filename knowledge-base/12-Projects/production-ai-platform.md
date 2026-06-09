@@ -45,6 +45,6 @@ Combine API delivery, retrieval, agents, observability, CI/CD, and cost controls
 
 ## Related Topics
 
-- [cloud-ai-architecture.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/06-Software-Architecture/cloud-ai-architecture.md)
-- [observability-and-monitoring.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/06-Software-Architecture/observability-and-monitoring.md)
-- [cicd-for-ai-systems.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/06-Software-Architecture/cicd-for-ai-systems.md)
+- [cloud-ai-architecture.md](../06-Software-Architecture/cloud-ai-architecture.md)
+- [observability-and-monitoring.md](../06-Software-Architecture/observability-and-monitoring.md)
+- [cicd-for-ai-systems.md](../06-Software-Architecture/cicd-for-ai-systems.md)

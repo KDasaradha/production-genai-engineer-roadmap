@@ -54,5 +54,5 @@ knowledge-assistant/
 
 ## Related Topics
 
-- [rag-pipeline.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/rag-pipeline.md)
-- [enterprise-rag-platform.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/enterprise-rag-platform.md)
+- [rag-pipeline.md](../09-RAG/rag-pipeline.md)
+- [enterprise-rag-platform.md](enterprise-rag-platform.md)

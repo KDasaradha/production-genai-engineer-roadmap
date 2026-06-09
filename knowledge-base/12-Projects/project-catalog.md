@@ -55,20 +55,20 @@ This file consolidates named projects scattered across the roadmap chats into a 
 
 ## Related Topics
 
-- [portfolio-projects.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/portfolio-projects.md)
-- [career-roadmap-and-study-plan.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/14-Career/career-roadmap-and-study-plan.md)
+- [portfolio-projects.md](portfolio-projects.md)
+- [career-roadmap-and-study-plan.md](../14-Career/career-roadmap-and-study-plan.md)
 
 ## Dedicated Files
 
-- [ai-text-summarizer.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/ai-text-summarizer.md)
-- [semantic-search-engine.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/semantic-search-engine.md)
-- [multi-provider-ai-playground.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/multi-provider-ai-playground.md)
-- [knowledge-assistant.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/knowledge-assistant.md)
-- [resume-analyzer.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/resume-analyzer.md)
-- [contract-analyzer.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/contract-analyzer.md)
-- [prompt-evaluation-system.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/prompt-evaluation-system.md)
-- [ai-workflow-automation.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/ai-workflow-automation.md)
-- [saas-level-ai-product.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/saas-level-ai-product.md)
-- [offline-local-ai-system.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/offline-local-ai-system.md)
-- [fine-tuned-domain-assistant.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/fine-tuned-domain-assistant.md)
-- [ai-security-gateway.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/ai-security-gateway.md)
+- [ai-text-summarizer.md](ai-text-summarizer.md)
+- [semantic-search-engine.md](semantic-search-engine.md)
+- [multi-provider-ai-playground.md](multi-provider-ai-playground.md)
+- [knowledge-assistant.md](knowledge-assistant.md)
+- [resume-analyzer.md](resume-analyzer.md)
+- [contract-analyzer.md](contract-analyzer.md)
+- [prompt-evaluation-system.md](prompt-evaluation-system.md)
+- [ai-workflow-automation.md](ai-workflow-automation.md)
+- [saas-level-ai-product.md](saas-level-ai-product.md)
+- [offline-local-ai-system.md](offline-local-ai-system.md)
+- [fine-tuned-domain-assistant.md](fine-tuned-domain-assistant.md)
+- [ai-security-gateway.md](ai-security-gateway.md)

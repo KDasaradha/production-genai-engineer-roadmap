@@ -55,9 +55,9 @@ enterprise-rag-platform/
 
 ## Code References
 
-- [rag-pipeline.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/rag-pipeline.md)
-- [advanced-retrieval.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/advanced-retrieval.md)
-- [reranking-and-context-compression.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/reranking-and-context-compression.md)
+- [rag-pipeline.md](../09-RAG/rag-pipeline.md)
+- [advanced-retrieval.md](../09-RAG/advanced-retrieval.md)
+- [reranking-and-context-compression.md](../09-RAG/reranking-and-context-compression.md)
 
 ## Interview Talking Points
 
@@ -75,5 +75,5 @@ enterprise-rag-platform/
 
 ## Related Topics
 
-- [portfolio-projects.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/portfolio-projects.md)
-- [backend-and-ai-scenarios.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/backend-and-ai-scenarios.md)
+- [portfolio-projects.md](portfolio-projects.md)
+- [backend-and-ai-scenarios.md](../05-System-Design/backend-and-ai-scenarios.md)

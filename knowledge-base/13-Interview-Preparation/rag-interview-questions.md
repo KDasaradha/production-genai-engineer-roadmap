@@ -19,5 +19,5 @@ Answer: When semantic retrieval, large-scale vector search, filtering, or operat
 
 ## Related Topics
 
-- [rag-pipeline.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/rag-pipeline.md)
-- [advanced-retrieval.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/advanced-retrieval.md)
+- [rag-pipeline.md](../09-RAG/rag-pipeline.md)
+- [advanced-retrieval.md](../09-RAG/advanced-retrieval.md)

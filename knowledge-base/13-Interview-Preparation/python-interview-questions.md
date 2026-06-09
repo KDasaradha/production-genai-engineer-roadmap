@@ -19,5 +19,5 @@ Answer: Type hints make intent explicit and improve static checking, editor supp
 
 ## Related Topics
 
-- [concurrency-models.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/01-Python/concurrency-models.md)
-- [topic-question-banks.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation/topic-question-banks.md)
+- [concurrency-models.md](../01-Python/concurrency-models.md)
+- [topic-question-banks.md](topic-question-banks.md)

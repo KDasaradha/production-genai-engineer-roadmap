@@ -40,9 +40,9 @@ semantic-search-engine/
 
 ## Code References
 
-- [embeddings.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/08-Generative-AI/embeddings.md)
-- [cosine-similarity.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/08-Generative-AI/cosine-similarity.md)
-- [vector-databases.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/vector-databases.md)
+- [embeddings.md](../08-Generative-AI/embeddings.md)
+- [cosine-similarity.md](../08-Generative-AI/cosine-similarity.md)
+- [vector-databases.md](../09-RAG/vector-databases.md)
 
 ## Interview Talking Points
 
@@ -59,5 +59,5 @@ semantic-search-engine/
 
 ## Related Topics
 
-- [knowledge-assistant.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/knowledge-assistant.md)
-- [project-catalog.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/project-catalog.md)
+- [knowledge-assistant.md](knowledge-assistant.md)
+- [project-catalog.md](project-catalog.md)

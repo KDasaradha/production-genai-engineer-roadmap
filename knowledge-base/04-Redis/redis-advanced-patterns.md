@@ -108,6 +108,6 @@ The base Redis note covers caching and AI backend optimization. Production backe
 
 ## Related Topics
 
-- [redis-and-caching.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis/redis-and-caching.md)
-- [fastapi-advanced.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/02-FastAPI/fastapi-advanced.md)
-- [backend-and-ai-scenarios.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/backend-and-ai-scenarios.md)
+- [redis-and-caching.md](redis-and-caching.md)
+- [fastapi-advanced.md](../02-FastAPI/fastapi-advanced.md)
+- [backend-and-ai-scenarios.md](../05-System-Design/backend-and-ai-scenarios.md)

@@ -1,8 +1,6 @@
 # Bootcamp Schedule
 
-## Purpose
-
-This file captures the execution-focused schedule from the raw roadmap chats so the learning path is not only topic-based but time-based.
+This schedule turns the knowledge base into execution. Adjust the pace, but keep the order.
 
 ## Study Formula
 
@@ -14,49 +12,67 @@ Theory -> Small Demo -> Mini Project -> Interview Questions -> Notes
 
 ## Time Budget
 
-| Day Type | Recommended Time |
-| --- | --- |
-| Weekdays | 3 hours |
-| Weekends | 5 hours |
+| Day Type | Recommended Time | Minimum Useful Time |
+| --- | --- | --- |
+| Weekday | 3 hours | 90 minutes |
+| Weekend | 5 hours | 2 hours |
 
-## Phase 0: AI-Ready Backend Foundation
-
-### Week 1
+## Phase 0: Backend Foundation
 
 | Day | Focus | Build Output |
 | --- | --- | --- |
-| 1 | AsyncIO | Async API call demo |
-| 2 | Generators | Streaming generator |
-| 3 | Decorators | API logger decorator |
-| 4 | Context Managers | DB connection manager |
-| 5 | Type Hints and Pydantic | Request validation example |
-| 6 | FastAPI advanced | Dependency and middleware demo |
+| 1 | [AsyncIO](../01-Python/asyncio.md) | Async API call demo |
+| 2 | [Generators](../01-Python/generators.md) | Streaming generator |
+| 3 | [Decorators](../01-Python/decorators.md) | API logger decorator |
+| 4 | [Context Managers](../01-Python/context-managers.md) | DB connection manager |
+| 5 | [Type Hints and Pydantic](../01-Python/type-hints-mypy.md) | Typed request validation example |
+| 6 | [FastAPI Advanced](../02-FastAPI/fastapi-advanced.md) | Dependency and middleware demo |
 | 7 | Revision | Personal summary notes |
-
-### Week 2
-
-| Day | Focus | Build Output |
-| --- | --- | --- |
 | 8 | Streaming responses | Chat-style streaming endpoint |
 | 9 | Background tasks | Email sender or job handoff |
-| 10 | Redis | Response cache |
-| 11 | Docker | Containerized FastAPI app |
-| 12 | PostgreSQL optimization | Index and pagination example |
+| 10 | [Redis](../04-Redis/redis-and-caching.md) | Response cache |
+| 11 | Docker basics | Containerized FastAPI app |
+| 12 | [PostgreSQL performance](../03-PostgreSQL/postgresql-performance.md) | Index and pagination example |
 | 13 | Logging and scaling | Request ID and latency logging |
-| 14 | Mini project | AI Streaming Chat API |
+| 14 | Mini project | [AI Streaming Chat API](../12-Projects/ai-streaming-chat-api.md) |
 
-## Phase 1 to Phase 5 Execution Pattern
+## Phase 1: LLM Foundations
 
-Repeat this structure for each later phase:
+| Week | Focus | Build Output |
+| --- | --- | --- |
+| 1 | Tokens, context windows, parameters, hallucinations | LLM behavior notebook or CLI demo |
+| 2 | Embeddings and cosine similarity | [Semantic Search Engine](../12-Projects/semantic-search-engine.md) |
 
-| Day Type | Focus |
-| --- | --- |
-| Day 1 | Learn the concept |
-| Day 2 | Rebuild a minimal Python example |
-| Day 3 | Add FastAPI or storage integration |
-| Day 4 | Study tradeoffs and failure modes |
-| Day 5 | Practice interview answers |
-| Weekend | Build or improve the relevant project |
+## Phase 2: Prompt Engineering
+
+| Week | Focus | Build Output |
+| --- | --- | --- |
+| 1 | Prompt types, advanced prompting, structured outputs | JSON extraction service |
+| 2 | Prompt testing, versioning, security, guardrails | [Prompt Evaluation System](../12-Projects/prompt-evaluation-system.md) |
+
+## Phase 3: RAG
+
+| Week | Focus | Build Output |
+| --- | --- | --- |
+| 1 | Chunking, retrieval, vector databases | Search over uploaded documents |
+| 2 | RAG pipeline, reranking, context compression | [Knowledge Assistant](../12-Projects/knowledge-assistant.md) |
+| 3 | Graph RAG, agentic RAG, frameworks | [Enterprise RAG Platform](../12-Projects/enterprise-rag-platform.md) design |
+
+## Phase 4: Agents
+
+| Week | Focus | Build Output |
+| --- | --- | --- |
+| 1 | Agent fundamentals and tool calling | Tool-using assistant |
+| 2 | State, memory, orchestration, frameworks | [Multi-Agent Research System](../12-Projects/multi-agent-research-system.md) |
+
+## Phase 5: Production and Interviews
+
+| Week | Focus | Build Output |
+| --- | --- | --- |
+| 1 | Architecture, observability, deployment | Production checklist for one project |
+| 2 | LLM engineering and cost controls | Local-model or fine-tuning decision memo |
+| 3 | System design and interview banks | Mock interview answers |
+| 4 | Career packaging | Resume bullets, GitHub README, project demos |
 
 ## Weekly Review Checklist
 
@@ -66,7 +82,8 @@ Repeat this structure for each later phase:
 4. Can I answer an interview question on it?
 5. Did I add it to a project?
 
-## Related Topics
+## Related Files
 
-- [Learning-Roadmap.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/00-Master-Roadmap/Learning-Roadmap.md)
-- [Progress-Tracker.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/00-Master-Roadmap/Progress-Tracker.md)
+- [Learning-Roadmap.md](Learning-Roadmap.md)
+- [Progress-Tracker.md](Progress-Tracker.md)
+- [12-Projects](../12-Projects/README.md)

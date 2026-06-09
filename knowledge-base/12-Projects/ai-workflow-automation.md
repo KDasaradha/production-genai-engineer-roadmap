@@ -54,5 +54,5 @@ ai-workflow-automation/
 
 ## Related Topics
 
-- [tool-calling.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/tool-calling.md)
-- [ai-backend-patterns.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/06-Software-Architecture/ai-backend-patterns.md)
+- [tool-calling.md](../10-Agentic-AI/tool-calling.md)
+- [ai-backend-patterns.md](../06-Software-Architecture/ai-backend-patterns.md)

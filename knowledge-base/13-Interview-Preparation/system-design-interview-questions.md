@@ -19,5 +19,5 @@ Answer: Request volume, first-token latency, total latency, provider failures, c
 
 ## Related Topics
 
-- [backend-and-ai-scenarios.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/backend-and-ai-scenarios.md)
-- [system-design-interview-questions.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/system-design-interview-questions.md)
+- [backend-and-ai-scenarios.md](../05-System-Design/backend-and-ai-scenarios.md)
+- [system-design-interview-questions.md](../05-System-Design/system-design-interview-questions.md)

@@ -55,5 +55,5 @@ When a full deep-dive is unnecessary, use:
 
 ## Related Topics
 
-- [Teaching-Style-Guide.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/Resources/Teaching-Style-Guide.md)
-- [Source-Map.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/Resources/Source-Map.md)
+- [Teaching-Style-Guide.md](Teaching-Style-Guide.md)
+- [Source-Map.md](Source-Map.md)
