@@ -54,5 +54,5 @@ resume-analyzer/
 
 ## Related Topics
 
-- [structured-outputs.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/structured-outputs.md)
-- [prompt-testing-and-versioning.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-testing-and-versioning.md)
+- [structured-outputs.md](../07-Prompt-Engineering/structured-outputs.md)
+- [prompt-testing-and-versioning.md](../07-Prompt-Engineering/prompt-testing-and-versioning.md)

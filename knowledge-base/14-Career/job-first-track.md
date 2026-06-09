@@ -38,5 +38,5 @@ This track prioritizes the fastest path to interview readiness and a credible po
 
 ## Related Topics
 
-- [career-roadmap-and-study-plan.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/14-Career/career-roadmap-and-study-plan.md)
-- [project-catalog.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/project-catalog.md)
+- [career-roadmap-and-study-plan.md](career-roadmap-and-study-plan.md)
+- [project-catalog.md](../12-Projects/project-catalog.md)

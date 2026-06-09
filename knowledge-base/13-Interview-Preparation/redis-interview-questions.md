@@ -19,5 +19,5 @@ Answer: Sorted sets store timestamps as scores, which makes expiring old entries
 
 ## Related Topics
 
-- [redis-and-caching.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis/redis-and-caching.md)
-- [redis-advanced-patterns.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis/redis-advanced-patterns.md)
+- [redis-and-caching.md](../04-Redis/redis-and-caching.md)
+- [redis-advanced-patterns.md](../04-Redis/redis-advanced-patterns.md)

@@ -73,7 +73,7 @@ Most backend and GenAI systems fail because developers mix up these terms and th
 
 ## Related Topics
 
-- [asyncio.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/01-Python/asyncio.md)
-- [fastapi-advanced.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/02-FastAPI/fastapi-advanced.md)
-- [postgresql-advanced-patterns.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/03-PostgreSQL/postgresql-advanced-patterns.md)
-- [redis-advanced-patterns.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis/redis-advanced-patterns.md)
+- [asyncio.md](asyncio.md)
+- [fastapi-advanced.md](../02-FastAPI/fastapi-advanced.md)
+- [postgresql-advanced-patterns.md](../03-PostgreSQL/postgresql-advanced-patterns.md)
+- [redis-advanced-patterns.md](../04-Redis/redis-advanced-patterns.md)

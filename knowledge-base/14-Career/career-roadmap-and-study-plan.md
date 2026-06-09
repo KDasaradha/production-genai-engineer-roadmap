@@ -56,6 +56,6 @@ Use this weighting:
 
 ## Related Topics
 
-- [Learning-Roadmap.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/00-Master-Roadmap/Learning-Roadmap.md)
-- [portfolio-projects.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/portfolio-projects.md)
-- [topic-question-banks.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation/topic-question-banks.md)
+- [Learning-Roadmap.md](../00-Master-Roadmap/Learning-Roadmap.md)
+- [portfolio-projects.md](../12-Projects/portfolio-projects.md)
+- [topic-question-banks.md](../13-Interview-Preparation/topic-question-banks.md)

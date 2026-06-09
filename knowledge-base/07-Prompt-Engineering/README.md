@@ -1,11 +1,41 @@
 # Prompt Engineering
 
-Prompt design, structured outputs, testing, and security patterns for reliable LLM applications.
+Prompt engineering is the control layer for model behavior. Study it after LLM foundations and before RAG and agents.
 
-## Topics
+## Learning Order
 
-- [prompt-types.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-types.md)
-- [advanced-prompting.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/advanced-prompting.md)
-- [structured-outputs.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/structured-outputs.md)
-- [prompt-testing-and-versioning.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-testing-and-versioning.md)
-- [prompt-security-and-guardrails.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-security-and-guardrails.md)
+| Order | Topic | Why It Comes Here | Output |
+| --- | --- | --- | --- |
+| 1 | [prompt-types.md](prompt-types.md) | Learn instruction, few-shot, role, constraint, and reasoning prompt patterns | Prompt pattern library |
+| 2 | [advanced-prompting.md](advanced-prompting.md) | Improve reliability through decomposition, examples, and constraints | Strong task prompts |
+| 3 | [structured-outputs.md](structured-outputs.md) | Production apps need predictable JSON, schemas, and validation | Schema-driven extraction API |
+| 4 | [prompt-testing-and-versioning.md](prompt-testing-and-versioning.md) | Prompts need regression tests like code | Prompt evaluation workflow |
+| 5 | [prompt-security-and-guardrails.md](prompt-security-and-guardrails.md) | Prompt injection and unsafe tool use are production risks | Guardrail checklist |
+
+## What To Master
+
+| Area | Why It Matters |
+| --- | --- |
+| Clear instructions | Reduce ambiguity |
+| Examples | Teach the model output shape and edge cases |
+| Constraints | Limit unwanted behavior |
+| Structured outputs | Make AI responses usable by backend systems |
+| Testing | Prevent prompt changes from silently breaking behavior |
+| Security | Defend against prompt injection and data leakage |
+
+## Common Trap
+
+Do not rely on a clever prompt for tasks that need validation, retrieval, tools, permissions, or deterministic business rules.
+
+## Interview Focus
+
+| Question | Strong Answer Should Mention |
+| --- | --- |
+| What makes a good prompt? | Task, context, constraints, examples, output format, evaluation |
+| What is structured output? | Schema-constrained response, validation, retries, safer integration |
+| How do you test prompts? | Golden datasets, automated checks, regression testing, versioning |
+| What is prompt injection? | Malicious instructions in input, data exfiltration, tool misuse, guardrails |
+
+## Project Connection
+
+Use this folder with [Prompt Evaluation System](../12-Projects/prompt-evaluation-system.md), [Resume Analyzer](../12-Projects/resume-analyzer.md), and [AI Security Gateway](../12-Projects/ai-security-gateway.md).

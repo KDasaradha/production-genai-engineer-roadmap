@@ -54,5 +54,5 @@ contract-analyzer/
 
 ## Related Topics
 
-- [structured-outputs.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/structured-outputs.md)
-- [prompt-security-and-guardrails.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-security-and-guardrails.md)
+- [structured-outputs.md](../07-Prompt-Engineering/structured-outputs.md)
+- [prompt-security-and-guardrails.md](../07-Prompt-Engineering/prompt-security-and-guardrails.md)

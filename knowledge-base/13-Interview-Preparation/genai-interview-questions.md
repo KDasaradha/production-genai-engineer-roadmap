@@ -19,5 +19,5 @@ Answer: Temperature scales randomness across the distribution, while top-p narro
 
 ## Related Topics
 
-- [tokens-and-tokenization.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/08-Generative-AI/tokens-and-tokenization.md)
-- [embeddings.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/08-Generative-AI/embeddings.md)
+- [tokens-and-tokenization.md](../08-Generative-AI/tokens-and-tokenization.md)
+- [embeddings.md](../08-Generative-AI/embeddings.md)

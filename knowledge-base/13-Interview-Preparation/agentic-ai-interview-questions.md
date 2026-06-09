@@ -19,5 +19,5 @@ Answer: Context is what the model sees in the current prompt; memory is the stor
 
 ## Related Topics
 
-- [agent-fundamentals.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/agent-fundamentals.md)
-- [state-memory-and-orchestration.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI/state-memory-and-orchestration.md)
+- [agent-fundamentals.md](../10-Agentic-AI/agent-fundamentals.md)
+- [state-memory-and-orchestration.md](../10-Agentic-AI/state-memory-and-orchestration.md)

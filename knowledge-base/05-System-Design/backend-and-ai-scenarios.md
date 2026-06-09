@@ -93,7 +93,7 @@ Use this structure for scenario questions:
 
 ## Related Topics
 
-- [portfolio-projects.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/portfolio-projects.md)
-- [enterprise-rag-platform.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/enterprise-rag-platform.md)
-- [multi-agent-research-system.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/multi-agent-research-system.md)
-- [interview-prep.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation/interview-prep.md)
+- [portfolio-projects.md](../12-Projects/portfolio-projects.md)
+- [enterprise-rag-platform.md](../12-Projects/enterprise-rag-platform.md)
+- [multi-agent-research-system.md](../12-Projects/multi-agent-research-system.md)
+- [interview-prep.md](../13-Interview-Preparation/interview-prep.md)

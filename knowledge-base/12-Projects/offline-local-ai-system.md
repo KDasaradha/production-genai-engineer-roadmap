@@ -52,5 +52,5 @@ offline-local-ai-system/
 
 ## Related Topics
 
-- [local-models-ollama-hugging-face-vllm.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/11-LLM-Engineering/local-models-ollama-hugging-face-vllm.md)
-- [quantization-and-distillation.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/11-LLM-Engineering/quantization-and-distillation.md)
+- [local-models-ollama-hugging-face-vllm.md](../11-LLM-Engineering/local-models-ollama-hugging-face-vllm.md)
+- [quantization-and-distillation.md](../11-LLM-Engineering/quantization-and-distillation.md)

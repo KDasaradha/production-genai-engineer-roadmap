@@ -35,5 +35,5 @@ Requirements -> Components -> Data Flow -> Failure Modes -> Tradeoffs -> Monitor
 
 ## Related Topics
 
-- [backend-and-ai-scenarios.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design/backend-and-ai-scenarios.md)
-- [interview-prep.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation/interview-prep.md)
+- [backend-and-ai-scenarios.md](backend-and-ai-scenarios.md)
+- [interview-prep.md](../13-Interview-Preparation/interview-prep.md)

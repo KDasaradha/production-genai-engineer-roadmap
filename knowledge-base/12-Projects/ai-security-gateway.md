@@ -55,5 +55,5 @@ ai-security-gateway/
 
 ## Related Topics
 
-- [prompt-security-and-guardrails.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-security-and-guardrails.md)
-- [redis-advanced-patterns.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis/redis-advanced-patterns.md)
+- [prompt-security-and-guardrails.md](../07-Prompt-Engineering/prompt-security-and-guardrails.md)
+- [redis-advanced-patterns.md](../04-Redis/redis-advanced-patterns.md)

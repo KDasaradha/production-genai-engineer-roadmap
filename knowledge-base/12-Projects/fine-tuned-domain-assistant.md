@@ -52,5 +52,5 @@ fine-tuned-domain-assistant/
 
 ## Related Topics
 
-- [fine-tuning-lora-qlora-peft.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/11-LLM-Engineering/fine-tuning-lora-qlora-peft.md)
-- [career-roadmap-and-study-plan.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/14-Career/career-roadmap-and-study-plan.md)
+- [fine-tuning-lora-qlora-peft.md](../11-LLM-Engineering/fine-tuning-lora-qlora-peft.md)
+- [career-roadmap-and-study-plan.md](../14-Career/career-roadmap-and-study-plan.md)

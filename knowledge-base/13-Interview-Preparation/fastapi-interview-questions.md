@@ -19,5 +19,5 @@ Answer: Use streaming responses backed by generators or async generators, and ch
 
 ## Related Topics
 
-- [fastapi-advanced.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/02-FastAPI/fastapi-advanced.md)
-- [ai-streaming-chat-api.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects/ai-streaming-chat-api.md)
+- [fastapi-advanced.md](../02-FastAPI/fastapi-advanced.md)
+- [ai-streaming-chat-api.md](../12-Projects/ai-streaming-chat-api.md)

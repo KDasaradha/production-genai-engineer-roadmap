@@ -2,51 +2,55 @@
 
 ## Goal
 
-Use this roadmap to move from Python backend developer to production-ready GenAI engineer in a dependency-aware order.
+Move from Python backend developer to production-ready GenAI engineer in an order that matches how real AI systems are built.
 
 ## Learning Sequence
 
 | Stage | Focus Area | Why It Comes Here | Primary Output |
 | --- | --- | --- | --- |
-| 0 | Python concurrency and engineering basics | Async apps, streaming APIs, and AI backends depend on these fundamentals | Strong mental model for async I/O, generators, decorators, context managers, typing, and errors |
-| 1 | FastAPI and backend patterns | AI systems need reliable APIs, validation, dependency injection, and request lifecycle control | Production-ready FastAPI services |
-| 2 | PostgreSQL and Redis | Retrieval systems and AI products need transactional storage, caching, sessions, queues, and rate limiting | Storage and performance foundation |
-| 3 | LLM foundations | Prompting, RAG, and agents are weak without understanding tokens, embeddings, and model behavior | Correct mental model for how LLM systems behave |
-| 4 | Prompt engineering | Prompt design is the fastest way to improve output quality before moving into larger systems | Reliable prompts and structured outputs |
-| 5 | Retrieval and RAG | Semantic search and grounded generation are core production GenAI patterns | Knowledge assistants and enterprise search systems |
-| 6 | Agentic AI | Agents add tools, planning, state, and orchestration on top of reliable LLM and RAG systems | Tool-using multi-step workflows |
-| 7 | AI application architecture | Product UX, streaming, citations, observability, and deployment turn demos into systems | Real product architecture |
-| 8 | LLM engineering | Fine-tuning, quantization, local models, and serving trade off cost, control, and latency | Model customization and self-hosting skills |
-| 9 | Production deployment and system design | Scaling, CI/CD, cloud architecture, GPU cost, and monitoring are the final production layer | Interview-ready production AI platform thinking |
+| 0 | Orientation | You need a clear path before studying deeply | Schedule, tracker, and execution rhythm |
+| 1 | Python backend foundations | Async apps, streaming APIs, and AI services depend on strong Python fundamentals | Async, generators, decorators, context managers, typing, and errors |
+| 2 | FastAPI | AI products need reliable APIs, validation, dependency injection, and lifecycle control | Production-ready API services |
+| 3 | PostgreSQL and Redis | RAG and agent systems need durable storage, caching, sessions, queues, and rate limits | Reliable data and performance layer |
+| 4 | Generative AI foundations | Prompting, RAG, and agents are weak without tokens, embeddings, context, and model behavior | Correct LLM mental model |
+| 5 | Prompt engineering | Prompt design is the fastest way to improve output quality before building larger systems | Reliable prompts and structured outputs |
+| 6 | Retrieval and RAG | Grounding is the core production pattern for enterprise AI systems | Document Q&A, search, citations, and retrieval evaluation |
+| 7 | Agentic AI | Agents add tools, planning, state, and orchestration on top of LLM/RAG foundations | Tool-using multi-step workflows |
+| 8 | Software architecture | Demos become products only when logging, security, deployment, UX, and observability exist | Production AI application architecture |
+| 9 | LLM engineering | Fine-tuning, quantization, and local serving trade off cost, control, and latency | Model customization and serving skills |
+| 10 | System design | Interviews test tradeoffs across the whole system | Design-ready AI backend thinking |
+| 11 | Projects and career | Hiring needs proof of skill, not only notes | Portfolio, interview practice, and job plan |
 
 ## Recommended Study Order
 
-1. [01-Python](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/01-Python)
-2. [02-FastAPI](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/02-FastAPI)
-3. [03-PostgreSQL](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/03-PostgreSQL)
-4. [04-Redis](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/04-Redis)
-5. [08-Generative-AI](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/08-Generative-AI)
-6. [07-Prompt-Engineering](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering)
-7. [09-RAG](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG)
-8. [10-Agentic-AI](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/10-Agentic-AI)
-9. [06-Software-Architecture](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/06-Software-Architecture)
-10. [11-LLM-Engineering](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/11-LLM-Engineering)
-11. [05-System-Design](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/05-System-Design)
-12. [12-Projects](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/12-Projects)
-13. [13-Interview-Preparation](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation)
-14. [14-Career](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/14-Career)
+1. [01-Python](../01-Python/README.md)
+2. [02-FastAPI](../02-FastAPI/README.md)
+3. [03-PostgreSQL](../03-PostgreSQL/README.md)
+4. [04-Redis](../04-Redis/README.md)
+5. [08-Generative-AI](../08-Generative-AI/README.md)
+6. [07-Prompt-Engineering](../07-Prompt-Engineering/README.md)
+7. [09-RAG](../09-RAG/README.md)
+8. [10-Agentic-AI](../10-Agentic-AI/README.md)
+9. [06-Software-Architecture](../06-Software-Architecture/README.md)
+10. [11-LLM-Engineering](../11-LLM-Engineering/README.md)
+11. [05-System-Design](../05-System-Design/README.md)
+12. [12-Projects](../12-Projects/README.md)
+13. [13-Interview-Preparation](../13-Interview-Preparation/README.md)
+14. [14-Career](../14-Career/README.md)
 
 ## Fastest Job-Ready Track
 
-If speed matters more than completeness, prioritize:
+If speed matters more than completeness, prioritize these topics:
 
-1. AsyncIO, FastAPI, PostgreSQL, Redis
-2. Tokens, embeddings, cosine similarity, hallucinations
-3. Prompt types, structured outputs, prompt security
-4. Chunking, retrieval, vector databases, RAG pipeline
-5. Tool calling, agent state, orchestration
-6. Enterprise RAG Platform and Multi-Agent Research System
-7. Observability, cloud AI architecture, CI/CD, GPU cost controls
+| Step | Topics | Build Evidence |
+| --- | --- | --- |
+| 1 | AsyncIO, generators, error handling, FastAPI, Pydantic | Streaming API with validation and error handling |
+| 2 | PostgreSQL performance, Redis caching | API with persistence, cache, and rate limits |
+| 3 | Tokens, embeddings, cosine similarity, hallucinations | Semantic search demo |
+| 4 | Prompt types, structured outputs, prompt security | Prompt evaluation mini system |
+| 5 | Chunking, retrieval, vector databases, RAG pipeline | Knowledge assistant with citations |
+| 6 | Tool calling, state, memory, orchestration | Multi-step agent workflow |
+| 7 | Observability, cloud architecture, CI/CD, cost controls | Production AI platform design |
 
 ## Weekly Routine
 
@@ -54,7 +58,7 @@ If speed matters more than completeness, prioritize:
 | --- | --- |
 | Monday | Learn one topic deeply and summarize it |
 | Tuesday | Rebuild the Python example from memory |
-| Wednesday | Add a FastAPI or database version |
+| Wednesday | Add a FastAPI, database, or Redis version |
 | Thursday | Study failures, tradeoffs, and production concerns |
 | Friday | Practice interview answers and design tradeoffs |
 | Saturday | Build or extend a project |
@@ -67,11 +71,12 @@ If speed matters more than completeness, prioritize:
 | Backend-ready | You can explain async vs sync, build FastAPI APIs, and use PostgreSQL and Redis safely |
 | LLM-ready | You can explain tokens, embeddings, context windows, temperature, and hallucinations clearly |
 | RAG-ready | You can build ingestion, retrieval, reranking, and citation flows |
-| Agent-ready | You can justify when agents are useful and control loops, tools, and memory |
+| Agent-ready | You can justify when agents are useful and control tools, loops, state, and memory |
 | Production-ready | You can discuss logging, monitoring, scaling, security, failure modes, and cost |
 
-## Related Topics
+## Related Files
 
-- [Learning-Index.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/00-Master-Roadmap/Learning-Index.md)
-- [Progress-Tracker.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/00-Master-Roadmap/Progress-Tracker.md)
-- [career-roadmap-and-study-plan.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/14-Career/career-roadmap-and-study-plan.md)
+- [Learning-Index.md](Learning-Index.md)
+- [Bootcamp-Schedule.md](Bootcamp-Schedule.md)
+- [Progress-Tracker.md](Progress-Tracker.md)
+- [career-roadmap-and-study-plan.md](../14-Career/career-roadmap-and-study-plan.md)

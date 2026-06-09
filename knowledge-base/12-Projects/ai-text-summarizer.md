@@ -53,5 +53,5 @@ ai-text-summarizer/
 
 ## Related Topics
 
-- [structured-outputs.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/structured-outputs.md)
-- [chunking-strategies.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/09-RAG/chunking-strategies.md)
+- [structured-outputs.md](../07-Prompt-Engineering/structured-outputs.md)
+- [chunking-strategies.md](../09-RAG/chunking-strategies.md)

@@ -53,5 +53,5 @@ prompt-evaluation-system/
 
 ## Related Topics
 
-- [prompt-testing-and-versioning.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/07-Prompt-Engineering/prompt-testing-and-versioning.md)
-- [genai-interview-questions.md](/c:/Users/ADMIN/Local%20Drive/applications/production-genai-engineer-roadmap/knowledge-base/13-Interview-Preparation/genai-interview-questions.md)
+- [prompt-testing-and-versioning.md](../07-Prompt-Engineering/prompt-testing-and-versioning.md)
+- [genai-interview-questions.md](../13-Interview-Preparation/genai-interview-questions.md)
