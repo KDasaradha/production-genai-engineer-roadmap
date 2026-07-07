@@ -34,6 +34,10 @@ This file records how the new `knowledge-base/` was assembled without modifying 
 | `juppyter-notes/notebooks/Python Backend Master Notes.md` | Python concurrency quick-reference topics |
 | `raw-notes/chat-005.md`, `raw-notes/roadmap.md`, `Roadmap.md` | Career and roadmap framing |
 | `devops-notes.md` | DevOps, DevSecOps, deployment options, CI/CD, GitOps, supply chain security, Kubernetes, observability, platform engineering, compliance, and portfolio project notes |
+| `archive/duplicate-sources/AI-RAG-Reasearch-notes/rag-chatbots/*.md` | RAG variant prioritization and production RAG learning roadmap |
+| `archive/duplicate-sources/AI-RAG-Reasearch-notes/UK COuncil PLanning Portal Production-Grade RAG.md`, `archive/duplicate-sources/AI-RAG-Reasearch-notes/FInalized Architecture.md` | UK Council Planning Portal AI Platform architecture, RAG design, rule engine, multi-tenancy, auditability, and production concerns |
+| `archive/duplicate-sources/AI-RAG-Reasearch-notes/AI-Engineer-Roadmap.md` | Mostly overlaps with the master roadmap, project catalog, RAG, agents, LLM engineering, and deployment sections |
+| `archive/duplicate-sources/AI-RAG-Reasearch-notes/Devsecops-llm-notes.md` | Mostly overlaps with DevOps and DevSecOps notes, especially CI/CD, OIDC, SBOM, scanning, signing, Kubernetes, and observability |
 
 ## Added Consolidation Files
 
@@ -75,6 +79,7 @@ The following files were created to capture cross-source material that did not e
 - [rag-interview-questions.md](../13-Interview-Preparation/rag-interview-questions.md)
 - [agentic-ai-interview-questions.md](../13-Interview-Preparation/agentic-ai-interview-questions.md)
 - [system-design-interview-questions.md](../13-Interview-Preparation/system-design-interview-questions.md)
+- [rag-variants-and-production-roadmap.md](../09-RAG/rag-variants-and-production-roadmap.md)
 - [career-roadmap-and-study-plan.md](../14-Career/career-roadmap-and-study-plan.md)
 - [job-first-track.md](../14-Career/job-first-track.md)
 - [Note-Templates-and-Prompts.md](Note-Templates-and-Prompts.md)
@@ -89,6 +94,7 @@ The following files were created to capture cross-source material that did not e
 - [15-DevOps-DevSecOps/08-observability-sre-compliance.md](../15-DevOps-DevSecOps/08-observability-sre-compliance.md)
 - [15-DevOps-DevSecOps/09-deployment-strategies.md](../15-DevOps-DevSecOps/09-deployment-strategies.md)
 - [15-DevOps-DevSecOps/10-portfolio-projects-and-checklists.md](../15-DevOps-DevSecOps/10-portfolio-projects-and-checklists.md)
+- [uk-council-planning-portal-ai-platform.md](../12-Projects/uk-council-planning-portal-ai-platform.md)
 
 ## Related Topics
 

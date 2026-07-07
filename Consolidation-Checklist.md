@@ -173,3 +173,5 @@
 
 - Use this file as the audit trail for any future consolidation pass.
 - If a source file changes later, update this checklist and the corresponding target files in `knowledge-base/`.
+- Duplicate source notes were moved to `archive/duplicate-sources/` so `knowledge-base/` remains the active curriculum while the original material is still recoverable.
+- `archive/duplicate-sources/AI-RAG-Reasearch-notes/` was reviewed after archiving. Unique RAG variant notes were consolidated into `knowledge-base/09-RAG/rag-variants-and-production-roadmap.md`, and the UK Council Planning Portal architecture was consolidated into `knowledge-base/12-Projects/uk-council-planning-portal-ai-platform.md`. The AI roadmap and DevSecOps notes mostly overlap existing roadmap, project, RAG, agent, LLM engineering, and DevOps/DevSecOps sections.

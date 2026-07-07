@@ -14,7 +14,8 @@ RAG, or Retrieval-Augmented Generation, grounds LLM responses in external knowle
 | 6 | [advanced-retrieval.md](advanced-retrieval.md) | Production systems need query rewriting, hybrid search, and filters | Better retrieval strategy |
 | 7 | [reranking-and-context-compression.md](reranking-and-context-compression.md) | Retrieved results often need ranking and trimming before generation | Reranking pipeline |
 | 8 | [graph-rag-and-agentic-rag.md](graph-rag-and-agentic-rag.md) | Advanced systems combine relationships, planning, and retrieval | Advanced RAG design |
-| 9 | [rag-frameworks.md](rag-frameworks.md) | Frameworks help but introduce abstractions and tradeoffs | Build-vs-framework decision |
+| 9 | [rag-variants-and-production-roadmap.md](rag-variants-and-production-roadmap.md) | RAG variants are useful only when matched to real product needs | Variant decision framework |
+| 10 | [rag-frameworks.md](rag-frameworks.md) | Frameworks help but introduce abstractions and tradeoffs | Build-vs-framework decision |
 
 ## What To Master
 
@@ -43,4 +44,4 @@ Do not blame the LLM first when RAG answers are bad. Most failures come from ing
 
 ## Project Connection
 
-Build [Semantic Search Engine](../12-Projects/semantic-search-engine.md), then [Knowledge Assistant](../12-Projects/knowledge-assistant.md), then [Enterprise RAG Platform](../12-Projects/enterprise-rag-platform.md).
+Build [Semantic Search Engine](../12-Projects/semantic-search-engine.md), then [Knowledge Assistant](../12-Projects/knowledge-assistant.md), then [Enterprise RAG Platform](../12-Projects/enterprise-rag-platform.md), then the [UK Council Planning Portal AI Platform](../12-Projects/uk-council-planning-portal-ai-platform.md) as a domain-specific production system.

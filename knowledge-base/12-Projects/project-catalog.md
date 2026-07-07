@@ -41,6 +41,7 @@ This file consolidates named projects scattered across the roadmap chats into a 
 | Offline Local AI System | Run retrieval or assistant workflows locally | Local models, vector DBs, optimization |
 | Fine-Tuned Domain Assistant | Customize model behavior for a domain | Fine-tuning, evaluation, deployment |
 | AI Security Gateway | Protect AI endpoints and prompts | Guardrails, rate limits, abuse prevention |
+| UK Council Planning Portal AI Platform | Council-specific planning assistant with rules and citations | Multi-tenant RAG, rule engine, metadata filtering, audit logs |
 
 ## Recommended Build Order
 
@@ -52,6 +53,7 @@ This file consolidates named projects scattered across the roadmap chats into a 
 6. Enterprise RAG Platform
 7. Research Agent or Coding Assistant
 8. Production AI Platform
+9. UK Council Planning Portal AI Platform
 
 ## Related Topics
 
@@ -72,3 +74,4 @@ This file consolidates named projects scattered across the roadmap chats into a 
 - [offline-local-ai-system.md](offline-local-ai-system.md)
 - [fine-tuned-domain-assistant.md](fine-tuned-domain-assistant.md)
 - [ai-security-gateway.md](ai-security-gateway.md)
+- [uk-council-planning-portal-ai-platform.md](uk-council-planning-portal-ai-platform.md)

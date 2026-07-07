@@ -27,6 +27,7 @@ Start with [project-catalog.md](project-catalog.md) for the full list and [portf
 | 15 | [fine-tuned-domain-assistant.md](fine-tuned-domain-assistant.md) | Production | Fine-tuning decision-making and domain adaptation |
 | 16 | [saas-level-ai-product.md](saas-level-ai-product.md) | Production | Product packaging, UX, billing-ready thinking |
 | 17 | [production-ai-platform.md](production-ai-platform.md) | Production | Full-stack AI platform architecture |
+| 18 | [uk-council-planning-portal-ai-platform.md](uk-council-planning-portal-ai-platform.md) | Production | Domain-specific multi-tenant RAG, rule engine, citations, auditability |
 
 ## Portfolio Rule
 
@@ -37,7 +38,7 @@ It is better to finish three strong projects with clear READMEs, diagrams, tests
 | Role Target | Recommended Projects |
 | --- | --- |
 | AI Backend Engineer | AI Streaming Chat API, Prompt Evaluation System, Production AI Platform |
-| RAG Engineer | Semantic Search Engine, Knowledge Assistant, Enterprise RAG Platform |
+| RAG Engineer | Semantic Search Engine, Knowledge Assistant, Enterprise RAG Platform, UK Council Planning Portal AI Platform |
 | Agent Engineer | AI Workflow Automation, Coding Assistant, Multi-Agent Research System |
 | GenAI Product Engineer | Resume Analyzer, SaaS-Level AI Product, AI Security Gateway |
 
